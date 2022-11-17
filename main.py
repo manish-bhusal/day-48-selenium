@@ -7,6 +7,8 @@
 
 # driver = webdriver.Chrome(service=chrome_driver_path)
 # URL = "https://www.amazon.com/Mad-Honey-Novel-Jodi-Picoult/dp/1984818384/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1668137327&sr=8-2-fkmr3"
+# It maximizes the current window that webdriver is using...
+# driver.maximize_window()
 # driver.get(URL)
 # price = driver.find_element(By.XPATH, '//*[@id="price"]')
 # print(price.text)
